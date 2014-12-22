@@ -37,7 +37,7 @@ All text above, and the first splash screen(Adafruit) must be included in any re
 
 ///////////////////////////////////////////////////////////////////
 //----- OLED instance
-#define OLED_RESET 8 //screen pin
+#define OLED_RESET 8
 Adafruit_SSD1306 display(OLED_RESET);
 
 #if (SSD1306_LCDHEIGHT != 64)
@@ -47,7 +47,7 @@ Adafruit_SSD1306 display(OLED_RESET);
 
 ///////////////////////////////////////////////////////////////////
 //----- BT instance
-SoftwareSerial BTSerial(2, 3); //Connect HC-06, RX, TX  bluetooth
+SoftwareSerial BTSerial(2, 3); //Connect HC-06, RX, TX
 ///////////////////////////////////////////////////////////////////
 
 //----- Bluetooth transaction parsing
